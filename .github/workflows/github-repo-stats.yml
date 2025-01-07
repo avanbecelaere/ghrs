@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run-ghrs
-        uses: ./
+        uses: avanbecelaere/ghrs@main
         with:
           # Define the stats repository (the repo to fetch
           # stats for and to generate the report for).
